@@ -30,4 +30,7 @@ class MovieViewModel {
         }
         return 0
     }
+    func cellForRowAt (indexPath: IndexPath) -> Movie {
+        return popularmovies [indexPath.row]
+    }
 }
